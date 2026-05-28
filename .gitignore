@@ -1,0 +1,51 @@
+# ── Python ──────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.env
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Flask / ML ───────────────────────
+instance/
+uploads/
+backend/ml/saved_models/*.h5
+backend/ml/saved_models/*.keras
+*.h5
+*.keras
+
+# ── Node / React ─────────────────────
+node_modules/
+frontend/dist/
+frontend/build/
+.npm
+
+# ── IDE ──────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Docker ───────────────────────────
+.docker/
+
+# ── Database ─────────────────────────
+*.sqlite
+*.db
+
+# ── Logs ─────────────────────────────
+*.log
+logs/
+
+# ── Secrets ──────────────────────────
+.env
+*.pem
+*.key

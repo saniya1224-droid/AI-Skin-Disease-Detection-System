@@ -1,0 +1,3 @@
+# ML saved models directory
+# Place your trained model here: efficientnet_dermai.h5
+# Run backend/ml/training/train.py to train the model
